@@ -25,12 +25,42 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   
-   
-   
+   #searchinput{
+     width: 200px;
+   }
+
+   .navbar-brand{
+     padding: 13px; 15px;
+   }
+
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+   #myCarousel .item{
+     height: 519px;
+   }
+
+   #slide1{
+     background: url('../../images/slideMedium1.jpg') top center no-repeat;
+   }
+
+   #slide2{
+     background: url('../../images/slideMedium2.jpg') top center no-repeat;
+   }
+
+   #slide3{
+     background: url('../../images/slideMedium3.jpg') top center no-repeat;
+   }
+
+   #slide4{
+     background: url('../../images/slideMedium4.jpg') top center no-repeat;
+   }
+
+   #myCarousel{
+     margin-top: 60px;
+   }
 
 
 
@@ -46,15 +76,51 @@ Notes:	 Hand coded for Udemy.com
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+  #myCarousel .item{
+    height: 397px;
+  }
+
+  #slide1{
+    background: url('../../images/slideSmall1.jpg') top center no-repeat;
+  }
+
+  #slide2{
+    background: url('../../images/slideSmall2.jpg') top center no-repeat;
+  }
+
+  #slide3{
+    background: url('../../images/slideSmall3.jpg') top center no-repeat;
+  }
+
+  #slide4{
+    background: url('../../images/slideSmall4.jpg') top center no-repeat;
+  }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	
+  #myCarousel .item{
+    height: 630px;
+  }
+
+  #slide1{
+    background: url('../../images/slideLarge1.jpg') top center no-repeat;
+  }
+
+  #slide2{
+    background: url('../../images/slideLarge2.jpg') top center no-repeat;
+  }
+
+  #slide3{
+    background: url('../../images/slideLarge3.jpg') top center no-repeat;
+  }
+
+  #slide4{
+    background: url('../../images/slideLarge4.jpg') top center no-repeat;
+  }
 }
