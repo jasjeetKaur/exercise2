@@ -33,6 +33,18 @@ Notes:	 Hand coded for Udemy.com
      padding: 13px; 15px;
    }
 
+   #navigationBar{
+     background-color: rgb(223,168,106);
+   }
+
+   .active{
+     background-color: rgb(141,52,10);
+   }
+
+   #navMenu{
+     color: rgb(113, 43, 9);
+   }
+
 
 
 /* --------------------------------------
@@ -59,8 +71,23 @@ Notes:	 Hand coded for Udemy.com
    }
 
    #myCarousel{
-     margin-top: 60px;
+     margin-top: 20px;
    }
+
+
+ /* --------------------------------------
+    Global Styles
+    -------------------------------------- */
+    #aboutus{
+      padding-top: 40px;
+    }
+
+    .about p{
+      font-size: 18px;
+      font-family: Berlin Sans FB;
+    }
+
+
 
 
 
@@ -105,7 +132,7 @@ Notes:	 Hand coded for Udemy.com
 /* Large desktop */
 @media (min-width: 1200px) {
   #myCarousel .item{
-    height: 630px;
+    height: 600px;
   }
 
   #slide1{
