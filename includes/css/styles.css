@@ -76,7 +76,7 @@ Notes:	 Hand coded for Udemy.com
 
 
  /* --------------------------------------
-    Global Styles
+    About us
     -------------------------------------- */
     #aboutus{
       padding-top: 40px;
@@ -87,9 +87,9 @@ Notes:	 Hand coded for Udemy.com
       font-family: Berlin Sans FB;
     }
 
-
-
-
+.bgImg1{
+  background: url('../../images/bg1Medium.jpg');
+}
 
 /* --------------------------------------
    Global Styles
