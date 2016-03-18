@@ -9,16 +9,19 @@ Notes:	 Hand coded for Udemy.com
 
 */
 
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
-
+body{
+  background: url(../../images/bodyBG.jpg);
+}
 
 
 /* --------------------------------------
-   Typography
+   Menu
    -------------------------------------- */
+  .coffee{
+    padding-top: 25px;
+    text-align: center;
+  }
+
 
 
 
@@ -35,10 +38,6 @@ Notes:	 Hand coded for Udemy.com
 
    #navigationBar{
      background-color: rgb(223,168,106);
-   }
-
-   .active{
-     background-color: rgb(141,52,10);
    }
 
    #navMenu{
@@ -79,7 +78,7 @@ Notes:	 Hand coded for Udemy.com
     About us
     -------------------------------------- */
     #aboutus{
-      padding-top: 40px;
+      padding-top: 60px;
     }
 
     .about p{
@@ -89,11 +88,16 @@ Notes:	 Hand coded for Udemy.com
 
 .bgImg1{
   background: url('../../images/bg1Medium.jpg');
+  height: 266px;
 }
 
 /* --------------------------------------
-   Global Styles
+   Addresses
    -------------------------------------- */
+   #addresses{
+     text-align: center;
+     margin-top: 30px;
+   }
 
 
 
@@ -127,6 +131,11 @@ Notes:	 Hand coded for Udemy.com
   #slide4{
     background: url('../../images/slideSmall4.jpg') top center no-repeat;
   }
+
+  .bgImg1{
+    background: url('../../images/bg1Small.jpg');
+    height: 203px;
+  }
 }
 
 /* Large desktop */
@@ -149,5 +158,10 @@ Notes:	 Hand coded for Udemy.com
 
   #slide4{
     background: url('../../images/slideLarge4.jpg') top center no-repeat;
+  }
+
+  .bgImg1{
+    background: url('../../images/bg1Large.jpg');
+    height: 330px;
   }
 }
