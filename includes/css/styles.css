@@ -13,6 +13,11 @@ body{
   background: url(../../images/bodyBG.jpg);
 }
 
+.logo{
+  background: url(../../images/logoLarge.jpg) no-repeat center;
+  height: 274px;
+}
+
 
 /* --------------------------------------
    Menu
@@ -86,10 +91,10 @@ body{
       font-family: Berlin Sans FB;
     }
 
-.bgImg1{
-  background: url('../../images/bg1Medium.jpg');
-  height: 266px;
-}
+    .bgImg1{
+      background: url('../../images/bg1Medium.jpg');
+      height: 266px;
+    }
 
 /* --------------------------------------
    Addresses
@@ -136,6 +141,11 @@ body{
     background: url('../../images/bg1Small.jpg');
     height: 203px;
   }
+
+  .footerBG{
+    background-color: rgb(6, 3, 0);
+    height: 600px;
+  }
 }
 
 /* Large desktop */
@@ -164,4 +174,33 @@ body{
     background: url('../../images/bg1Large.jpg');
     height: 330px;
   }
+
+  .footerBG{
+    background-color: rgb(6, 3, 0);
+    height: 200px;
+  }
 }
+
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+   footer{
+     background-color: rgb(6, 3, 0);
+     height: 200px;
+   }
+
+   .footerBG ul{
+     list-style: none;
+   }
+
+   .icon{
+     padding-bottom: 20px;
+   }
+
+   a{
+     color: white;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 16px;
+   }
